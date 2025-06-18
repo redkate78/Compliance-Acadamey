@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Loss Compliance: HIPAA Fundamentals</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+        .correct-answer {
+            background-color: #d1fae5; /* Green light */
+            border-color: #10b981; /* Green border */
+        }
+        .wrong-answer {
+            background-color: #fee2e2; /* Red light */
+            border-color: #ef4444; /* Red border */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+    <div class="max-w-3xl w-full bg-white rounded-xl shadow-lg p-6 md:p-8 space-y-8">
+        <!-- Module Header -->
+        <header class="text-center">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Stop Loss Compliance: HIPAA Fundamentals</h1>
+            <p class="text-md md:text-lg text-gray-600">Module 1 of the Compliance Tip Microlearning Series</p>
+        </header>
+
+        <!-- Introduction Section -->
+        <section class="space-y-4">
+            <h2 class="text-2xl font-semibold text-gray-800">Understanding HIPAA in Stop Loss</h2>
+            <p class="text-gray-700 leading-relaxed">The Health Insurance Portability and Accountability Act (HIPAA) is a cornerstone of patient data protection in healthcare. For the Stop Loss claims industry, understanding and adhering to HIPAA is not just a legal requirement, but a fundamental aspect of maintaining trust and ensuring responsible handling of Protected Health Information (PHI).</p>
+            <p class="text-gray-700 leading-relaxed">This module will provide a quick overview of key HIPAA principles relevant to your daily tasks in stop loss claims.</p>
+        </section>
+
+        <!-- Key Concepts Section -->
+        <section class="space-y-4">
+            <h2 class="text-2xl font-semibold text-gray-800">Key Takeaways for Stop Loss Professionals</h2>
+            <ul class="list-disc list-inside text-gray-700 pl-4 space-y-2">
+                <li>**PHI (Protected Health Information):** Any health information that can be linked to an individual. This includes medical records, billing information, and even demographic data like names, addresses, and dates.</li>
+                <li>**Minimum Necessary Rule:** When accessing, using, or disclosing PHI, you should only request or share the minimum amount of information necessary to accomplish the intended purpose. Avoid over-sharing.</li>
+                <li>**Privacy Rule:** Governs the use and disclosure of PHI. It sets national standards for protecting individuals' medical records and other personal health information.</li>
+                <li>**Security Rule:** Requires covered entities to implement administrative, physical, and technical safeguards to protect electronic PHI (ePHI). This includes encryption, access controls, and regular security assessments.</li>
+                <li>**Breach Notification Rule:** Requires covered entities and their business associates to notify affected individuals, HHS, and in some cases, the media, of a breach of unsecured PHI.</li>
+            </ul>
+            <p class="text-gray-700 leading-relaxed font-semibold">Remember: Patient privacy is paramount. Always err on the side of caution when handling PHI.</p>
+        </section>
+
+        <!-- Interactive Quiz Section -->
+        <section class="space-y-6 bg-indigo-50 p-6 rounded-xl border border-indigo-200">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center">Quick Check: Test Your Knowledge!</h2>
+            <div id="quiz-container" class="space-y-6">
+                <!-- Question 1 -->
+                <div class="quiz-question bg-white p-5 rounded-lg shadow-sm" data-correct-answer="option2">
+                    <p class="font-medium text-lg text-gray-800 mb-3">1. What is the "Minimum Necessary Rule" under HIPAA?</p>
+                    <div class="space-y-2">
+                        <label class="block cursor-pointer p-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <input type="radio" name="q1" value="option1" class="mr-2">
+                            Share all health information readily to ensure comprehensive understanding.
+                        </label>
+                        <label class="block cursor-pointer p-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <input type="radio" name="q1" value="option2" class="mr-2">
+                            Only request or share the least amount of PHI needed for a specific purpose.
+                        </label>
+                        <label class="block cursor-pointer p-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <input type="radio" name="q1" value="option3" class="mr-2">
+                            Only share PHI if the patient gives written consent every single time.
+                        </label>
+                    </div>
+                    <div class="feedback-message mt-2 text-sm"></div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="quiz-question bg-white p-5 rounded-lg shadow-sm" data-correct-answer="option3">
+                    <p class="font-medium text-lg text-gray-800 mb-3">2. Which of the following is considered Protected Health Information (PHI)?</p>
+                    <div class="space-y-2">
+                        <label class="block cursor-pointer p-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <input type="radio" name="q2" value="option1" class="mr-2">
+                            Only a patient's medical diagnosis.
+                        </label>
+                        <label class="block cursor-pointer p-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <input type="radio" name="q2" value="option2" class="mr-2">
+                            Just billing information, not health data.
+                        </label>
+                        <label class="block cursor-pointer p-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <input type="radio" name="q2" value="option3" class="mr-2">
+                            Medical records, billing information, and demographic data like names.
+                        </label>
+                    </div>
+                    <div class="feedback-message mt-2 text-sm"></div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="quiz-question bg-white p-5 rounded-lg shadow-sm" data-correct-answer="option1">
+                    <p class="font-medium text-lg text-gray-800 mb-3">3. If a data breach of unsecured PHI occurs, what does the Breach Notification Rule generally require?</p>
+                    <div class="space-y-2">
+                        <label class="block cursor-pointer p-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <input type="radio" name="q3" value="option1" class="mr-2">
+                            Notify affected individuals, HHS, and sometimes the media.
+                        </label>
+                        <label class="block cursor-pointer p-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <input type="radio" name="q3" value="option2" class="mr-2">
+                            Only notify the affected individuals, no one else.
+                        </label>
+                        <label class="block cursor-pointer p-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <input type="radio" name="q3" value="option3" class="mr-2">
+                            It's not necessary to notify anyone if it was an accidental breach.
+                        </label>
+                    </div>
+                    <div class="feedback-message mt-2 text-sm"></div>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <button id="submit-quiz" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-md">
+                    Submit Answers
+                </button>
+                <button id="reset-quiz" class="hidden ml-4 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out shadow-md">
+                    Reset Quiz
+                </button>
+            </div>
+            <div id="quiz-result" class="mt-4 text-center text-xl font-bold"></div>
+        </section>
+
+        <!-- Call to Action / Next Steps -->
+        <section class="space-y-4 text-center">
+            <h2 class="text-2xl font-semibold text-gray-800">What's Next?</h2>
+            <p class="text-gray-700 leading-relaxed">Congratulations on completing this module! Understanding HIPAA is crucial for protecting sensitive information in the stop loss claims process. Stay tuned for future modules covering other critical compliance areas.</p>
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-md">
+                Explore More Compliance Modules
+            </button>
+        </section>
+
+        <!-- Footer for Microlearning -->
+        <footer class="text-center text-sm text-gray-500 pt-4 border-t border-gray-200">
+            &copy; 2025 Stop Loss Compliance Microlearning Series. All rights reserved.
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const quizQuestions = document.querySelectorAll('.quiz-question');
+            const submitButton = document.getElementById('submit-quiz');
+            const resetButton = document.getElementById('reset-quiz');
+            const quizResult = document.getElementById('quiz-result');
+
+            function checkAnswers() {
+                let correctCount = 0;
+                quizQuestions.forEach(questionDiv => {
+                    const selectedOption = questionDiv.querySelector('input[type="radio"]:checked');
+                    const correctAnswer = questionDiv.dataset.correctAnswer;
+                    const feedbackMessage = questionDiv.querySelector('.feedback-message');
+                    const labels = questionDiv.querySelectorAll('label');
+
+                    // Disable all radio buttons for this question
+                    questionDiv.querySelectorAll('input[type="radio"]').forEach(radio => radio.disabled = true);
+
+                    if (selectedOption) {
+                        if (selectedOption.value === correctAnswer) {
+                            correctCount++;
+                            selectedOption.closest('label').classList.add('correct-answer');
+                            feedbackMessage.textContent = 'Correct!';
+                            feedbackMessage.classList.add('text-green-600');
+                        } else {
+                            selectedOption.closest('label').classList.add('wrong-answer');
+                            feedbackMessage.textContent = 'Incorrect. The correct answer is highlighted.';
+                            feedbackMessage.classList.add('text-red-600');
+
+                            // Highlight the correct answer if the user got it wrong
+                            labels.forEach(label => {
+                                if (label.querySelector('input').value === correctAnswer) {
+                                    label.classList.add('correct-answer');
+                                }
+                            });
+                        }
+                    } else {
+                        feedbackMessage.textContent = 'Please select an answer.';
+                        feedbackMessage.classList.add('text-yellow-600');
+                        // Optionally highlight correct answer if no answer was selected
+                        labels.forEach(label => {
+                            if (label.querySelector('input').value === correctAnswer) {
+                                label.classList.add('correct-answer');
+                            }
+                        });
+                    }
+                });
+
+                quizResult.textContent = `You scored ${correctCount} out of ${quizQuestions.length} correct!`;
+                quizResult.classList.add('text-indigo-700');
+                submitButton.classList.add('hidden');
+                resetButton.classList.remove('hidden');
+            }
+
+            function resetQuiz() {
+                quizQuestions.forEach(questionDiv => {
+                    const selectedOption = questionDiv.querySelector('input[type="radio"]:checked');
+                    if (selectedOption) {
+                        selectedOption.checked = false; // Uncheck selected radio
+                    }
+                    // Remove feedback classes and text
+                    questionDiv.querySelectorAll('label').forEach(label => {
+                        label.classList.remove('correct-answer', 'wrong-answer');
+                    });
+                    const feedbackMessage = questionDiv.querySelector('.feedback-message');
+                    feedbackMessage.textContent = '';
+                    feedbackMessage.classList.remove('text-green-600', 'text-red-600', 'text-yellow-600');
+
+                    // Re-enable all radio buttons
+                    questionDiv.querySelectorAll('input[type="radio"]').forEach(radio => radio.disabled = false);
+                });
+                quizResult.textContent = '';
+                quizResult.classList.remove('text-indigo-700');
+                submitButton.classList.remove('hidden');
+                resetButton.classList.add('hidden');
+            }
+
+            submitButton.addEventListener('click', checkAnswers);
+            resetButton.addEventListener('click', resetQuiz);
+        });
+    </script>
+</body>
+</html>
